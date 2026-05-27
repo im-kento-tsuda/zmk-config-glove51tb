@@ -88,10 +88,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp MINUS     &kp LS(EQUAL)  &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans        &trans         &trans        &trans        &trans         &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                   &trans         &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                               &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &kp TILDE     &kp GRAVE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans                &trans                 &kp MINUS     &kp PLUS       &kp EQUAL     &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans                &trans                 &trans                                                   &trans        &trans
             >;
         };
 

@@ -71,8 +71,8 @@ layers:
   - {t: ▽, type: trans}
   - '~'
   - '`'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ^
   - '&'
   - '*'
@@ -85,8 +85,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - )
   - '-'
   - +
   - '='
@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - BT CLR ALL
   - BT CLR

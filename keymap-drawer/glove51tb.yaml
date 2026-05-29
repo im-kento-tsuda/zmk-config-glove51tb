@@ -12,53 +12,67 @@ layers:
   - I
   - O
   - P
-  - '|'
-  - TAB
+  - Gui+Sft+A
+  - {t: ▽, type: trans}
   - A
   - S
   - D
   - F
   - G
   - {t: ▽, type: trans}
-  - Sft+Gui+A
+  - '|'
   - H
   - J
   - K
   - L
   - ;
-  - '"'
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
   - V
   - B
-  - (
-  - )
+  - '{'
+  - '}'
   - N
   - M
   - ','
   - {t: ., h: SCROLL}
-  - ':'
-  - ''''
+  - /
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
   - LEFT CONTROL
   - LEFT ALT
+  - {t: DEL, h: LEFT SHIFT}
+  - {t: SPACE, h: FUN}
   - LEFT COMMAND
-  - DELETE
-  - {t: SPACE, h: NUM}
   - LEFT COMMAND
-  - LEFT COMMAND
-  - {t: RETURN, h: SYM}
-  - /
-  - \
+  - {t: RETURN, h: NUM}
+  - ''''
+  - {t: SYM, h: toggle}
   NUM:
+  - {t: ▽, type: trans}
+  - BRIGHTNESS INC
+  - BRIGHTNESS INC
+  - PREVIOUS
+  - PAUSE
+  - NEXT
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - {t: ▽, type: trans}
+  - '&'
   - '6'
   - '7'
   - '8'
@@ -66,42 +80,28 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '~'
   - '!'
   - '@'
-  - '&'
-  - ^
-  - {t: ▽, type: trans}
+  - '#'
+  - $
+  - '%'
+  - (
+  - )
   - '-'
   - +
   - '*'
   - '='
-  - '%'
-  - $
-  - INT YEN
-  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - <
-  - '['
-  - '{'
-  - '}'
-  - ']'
-  - '>'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
   - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT ALT
+  - '~'
+  - '~'
+  - ^
+  - {t: DELETE, h: LEFT SHIFT}
+  - SPACE
   - LEFT COMMAND
-  - {t: ▽, type: trans}
+  - RIGHT COMMAND
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
@@ -111,11 +111,11 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,9 +125,6 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -153,7 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -176,13 +176,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - '-'
-  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,19 +188,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
-  - '['
-  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

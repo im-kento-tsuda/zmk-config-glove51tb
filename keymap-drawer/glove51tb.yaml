@@ -97,10 +97,10 @@ layers:
   - '~'
   - '`'
   - ^
-  - {t: DELETE, h: LEFT SHIFT}
-  - SPACE
-  - Gui+LANGUAGE 2
-  - Gui+LANGUAGE 2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - Gui+Ctl+LEFT ALT
   - Gui+LEFT ALT
   - {t: ▽, type: trans}
-  - Ctl+UP ARROW
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - RIGHT
@@ -191,7 +191,7 @@ layers:
   - Gui+Sft+LEFT ALT
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - '&mkp LCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
@@ -214,6 +214,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -223,10 +224,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+T
+  - Gui+Sft+[
+  - Gui+Sft+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,9 +238,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+L
+  - Gui+[
+  - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

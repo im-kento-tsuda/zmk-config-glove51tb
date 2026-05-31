@@ -210,43 +210,44 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+W
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+T
-  - Gui+Sft+[
-  - Gui+Sft+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mkp MCLK'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+L
-  - Gui+[
-  - Gui+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
   - SCROLL
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,8 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}

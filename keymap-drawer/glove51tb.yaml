@@ -45,11 +45,11 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - Sft+LEFT COMMAND
+  - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: SPACE, h: FUN}
-  - {t: LANGUAGE 2, h: LEFT COMMAND}
+  - {t: ENTER, h: NUM}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - {t: RETURN, h: NUM}
   - ''''
   - SYM
   NUM:
@@ -100,8 +100,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
@@ -202,8 +202,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

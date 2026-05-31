@@ -85,10 +85,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC  &kp Q    &kp W             &kp E         &kp R                  &kp T                                            &kp Y         &kp U  &kp I      &kp O       &kp P        &kp RG(RS(A))
-&trans   &kp A    &kp S             &kp D         &kp F                  &kp G        &trans            &kp PIPE          &kp H         &kp J  &kp K      &kp L       &kp SEMI     &trans
-&trans   &kp Z    &kp X             &kp C         &kp V                  &kp B        &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp N         &kp M  &kp COMMA  &kp PERIOD  &lt 5 SLASH  &trans
-&trans   &kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT DELETE  &lt 3 SPACE  &kp LEFT_COMMAND  &kp LEFT_COMMAND  &lt 1 RETURN                                &kp SQT      &to 2
+&kp ESC         &kp Q             &kp W         &kp E         &kp R                     &kp T                                                &kp Y         &kp U  &kp I      &kp O         &kp P      &kp BACKSPACE
+&kp TAB         &kp A             &kp S         &kp D         &kp F                     &kp G        &trans              &kp LS(LG(A))       &kp H         &kp J  &kp K      &kp L         &kp SEMI   &kp PIPE
+&kp LEFT_SHIFT  &kp Z             &kp X         &kp C         &kp V                     &kp B        &kp LEFT_BRACE      &kp RIGHT_BRACE     &kp N         &kp M  &kp COMMA  &lt 5 PERIOD  &kp SLASH  &kp RIGHT_SHIFT
+&tog 4          &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_ALT  &mt LEFT_SHIFT BACKSPACE  &lt 3 SPACE  &kp LG(LANGUAGE_2)  &kp RG(LANGUAGE_1)  &lt 1 RETURN                                  &kp SQT    &mo 2
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -97,10 +97,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PAUSE            &kp C_NEXT                                                 &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans        &trans        &trans
-&trans  &kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3    &kp NUMBER_4           &kp NUMBER_5  &trans                &kp AMPERSAND          &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR             &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &kp PLUS           &kp ASTERISK     &kp EQUAL     &trans        &trans
-&trans  &kp TILDE             &kp TILDE             &kp CARET       &mt LEFT_SHIFT DELETE  &kp SPACE     &kp LEFT_COMMAND      &kp RIGHT_COMMAND      &trans                                                          &trans        &trans
+&trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PAUSE            &kp C_NEXT                                                 &kp K_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans        &trans        &trans
+&trans  &kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3    &kp NUMBER_4           &kp NUMBER_5  &trans                &trans                 &kp NUMBER_6   &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR             &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp MINUS          &kp PLUS         &kp ASTERISK  &kp EQUAL     &trans
+&trans  &kp TILDE             &kp GRAVE             &kp CARET       &mt LEFT_SHIFT DELETE  &kp SPACE     &kp LG(LANGUAGE_2)    &kp RG(LANGUAGE_2)     &trans                                                           &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -119,10 +119,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                  &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans        &kp LC(UP_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &kp LC(LEFT)  &kp LC(RIGHT)     &trans          &mkp LCLK       &mkp RCLK     &mkp MCLK        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                         &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5                                          &kp NUMBER_6  &kp N7     &kp N8     &kp N9        &kp N0    &trans
+&trans  &trans        &trans        &trans        &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)      &trans        &kp LC(UP_ARROW)  &trans        &kp LEFT   &kp RIGHT  &kp UP_ARROW  &kp DOWN  &trans
+&trans  &trans        &trans        &trans        &kp LG(LA(F))         &kp LG(LS(LEFT_ALT))  &kp LC(LEFT)  &kp LC(RIGHT)     &trans        &mkp LCLK  &mkp RCLK  &trans        &trans    &trans
+&trans  &trans        &trans        &trans        &trans                &trans                &trans        &trans            &trans                                            &trans    &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -131,9 +131,9 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 5   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 5   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
             >;
         };
@@ -141,10 +141,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6   &kp F7   &kp F8     &kp F9     &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &mkp LCLK  &mkp RCLK  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none    &mkp LCLK  &mkp RCLK  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6   &kp F7     &kp F8     &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12    &mkp MCLK  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &mkp LCLK  &mkp RCLK  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                 &trans   &trans
             >;
         };
     };

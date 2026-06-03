@@ -166,8 +166,8 @@ layers:
   - MUTE
   - VOLUME UP
   - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+-
+  - Gui+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+F

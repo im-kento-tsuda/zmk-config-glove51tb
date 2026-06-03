@@ -106,52 +106,104 @@ layers:
   - {t: ▽, type: trans}
   FUN:
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - ''
-  - ''
+  - '!'
+  - '?'
+  - '&'
+  - '|'
+  - \
+  - /
+  - '*'
+  - '-'
+  - +
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - Gui+Ctl+LEFT ALT
-  - Gui+LEFT ALT
+  - ^
+  - '~'
+  - '`'
+  - '"'
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - LEFT
-  - RIGHT
-  - ''
-  - ''
+  - ':'
+  - ;
+  - ','
+  - .
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - Gui+Alt+F
-  - Gui+Sft+LEFT ALT
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - Ctl+UP ARROW
-  - UP ARROW
-  - DOWN
-  - ''
-  - ''
+  - '@'
+  - <
+  - '{'
+  - '['
+  - (
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - )
+  - ']'
+  - '}'
+  - '>'
+  - $
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  move_controller:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - RIGHT
+  - UP ARROW
+  - DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

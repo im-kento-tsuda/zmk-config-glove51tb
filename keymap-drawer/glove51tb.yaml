@@ -34,7 +34,7 @@ layers:
   - V
   - B
   - {t: '[', h: move_controller}
-  - {t: ']', h: move_controller}
+  - BACKSPACE
   - N
   - M
   - ','

@@ -46,9 +46,9 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: BACKSPACE, h: NUM}
-  - {t: SPACE, h: move_controller}
-  - {t: ENTER, h: FUN}
+  - {t: BACKSPACE, h: FUN}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: move_controller}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - ''''
   - ''
@@ -59,11 +59,11 @@ layers:
   - F3
   - F4
   - F5
-  - '1'
-  - '2'
-  - '3'
-  - '0'
-  - '='
+  - '7'
+  - '8'
+  - '9'
+  - /
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
@@ -87,11 +87,12 @@ layers:
   - F15
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - /
-  - '*'
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,7 +100,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,9 +150,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,8 +203,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

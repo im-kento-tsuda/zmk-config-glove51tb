@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - ESC
-  - Q
+  - ''
+  - {t: Q, h: LEFT ALT}
   - W
   - E
   - R
@@ -11,10 +11,10 @@ layers:
   - U
   - I
   - O
-  - P
-  - BACKSPACE
-  - TAB
-  - A
+  - {t: P, h: RIGHT ALT}
+  - ''
+  - ''
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -25,10 +25,10 @@ layers:
   - J
   - K
   - L
-  - ;
-  - '|'
-  - LEFT SHIFT
-  - Z
+  - {t: ;, h: RIGHT CONTROL}
+  - ''
+  - ''
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -39,19 +39,19 @@ layers:
   - M
   - ','
   - {t: ., h: SCROLL}
-  - /
-  - RETURN
-  - {t: MOUSE, h: toggle}
+  - {t: /, h: LEFT SHIFT}
+  - ''
+  - ''
+  - TAB
   - LEFT CONTROL
   - LEFT ALT
-  - Sft+LEFT COMMAND
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: SPACE, h: FUN}
   - {t: ENTER, h: NUM}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - ''''
-  - SYM
+  - ''
   NUM:
   - {t: ▽, type: trans}
   - F1
@@ -155,7 +155,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   FUN:
   - {t: ▽, type: trans}
   - ''

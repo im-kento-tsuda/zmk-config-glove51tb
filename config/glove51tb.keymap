@@ -120,10 +120,10 @@
 
         move_controller_layer {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS      &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_UP  &trans        &trans    &trans
-&trans  &kp LG(F)             &kp LG(LEFT_CONTROL)  &kp LG(LEFT_SHIFT)  &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &trans      &kp LEFT         &kp RIGHT        &kp UP_ARROW  &kp DOWN  &trans
-&trans  &trans                &trans                &trans              &trans                &trans            &trans  &trans  &trans      &kp LC(LEFT)     &kp LC(RIGHT)    &kp LC(UP)    &trans    &trans
-&trans  &trans                &trans                &trans              &trans                &trans            &trans  &trans  &trans                                                      &trans    &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS      &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_UP  &kp LG(MINUS)  &kp LG(EQUAL)  &trans
+&trans  &kp LG(F)             &kp LG(LEFT_CONTROL)  &kp LG(LEFT_SHIFT)  &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &trans      &kp LEFT         &kp RIGHT        &kp UP_ARROW   &kp DOWN       &trans
+&trans  &trans                &trans                &trans              &trans                &trans            &trans  &trans  &trans      &kp LC(LEFT)     &kp LC(RIGHT)    &kp LC(UP)     &trans         &trans
+&trans  &trans                &trans                &trans              &trans                &trans            &trans  &trans  &trans                                                       &trans         &trans
             >;
         };
 

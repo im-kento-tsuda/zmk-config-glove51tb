@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
-  - Sft+Gui+A
+  - ESC
+  - Sft+Gui+BACKSPACE
   - H
   - J
   - K
@@ -34,7 +34,7 @@ layers:
   - V
   - B
   - {t: '[', h: move_controller}
-  - BACKSPACE
+  - ']'
   - N
   - M
   - ','
@@ -43,8 +43,8 @@ layers:
   - ''
   - ''
   - TAB
-  - LEFT CONTROL
-  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: BACKSPACE, h: FUN}
   - {t: SPACE, h: NUM}
@@ -84,7 +84,7 @@ layers:
   - F12
   - F13
   - F14
-  - F15
+  - Gui+Sft+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'

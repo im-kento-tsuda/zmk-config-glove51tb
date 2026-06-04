@@ -120,10 +120,10 @@
 
         move_controller_layer {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PAUSE  &kp C_NEXT                      &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_UP  &kp LG(MINUS)  &kp LG(EQUAL)  &trans
-&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_CLR   &bt BT_CLR_ALL  &trans  &trans  &trans      &kp LEFT         &kp RIGHT        &kp UP         &kp DOWN       &trans
-&trans  &trans                &trans                &trans          &trans       &trans          &trans  &trans  &trans      &kp LS(LEFT)     &kp LS(RIGHT)    &kp LS(UP)     &kp LS(DOWN)   &trans
-&trans  &trans                &trans                &trans          &trans       &trans          &trans  &trans  &trans                                                       &trans         &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS        &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_UP  &kp LG(MINUS)  &kp LG(EQUAL)  &trans
+&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR            &bt BT_CLR_ALL    &trans  &trans  &trans      &kp LEFT         &kp RIGHT        &kp UP         &kp DOWN       &trans
+&trans  &trans                &kp LG(LA(F))         &kp LG(LS(LEFT_ALT))  &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &trans      &kp LS(LEFT)     &kp LS(RIGHT)    &kp LS(UP)     &kp LS(DOWN)   &trans
+&trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans  &trans                                                       &trans         &trans
             >;
         };
 

@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - ESC
-  - Sft+Gui+BACKSPACE
+  - BACKSPACE
   - H
   - J
   - K

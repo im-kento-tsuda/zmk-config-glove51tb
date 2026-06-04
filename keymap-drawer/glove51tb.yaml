@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - ''
-  - {t: Q, h: LEFT ALT}
+  - Q
   - W
   - E
   - R
@@ -11,46 +11,46 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: RIGHT ALT}
+  - P
   - ''
   - ''
-  - {t: A, h: LEFT CONTROL}
+  - A
   - S
   - D
   - F
   - G
-  - ESC
-  - BACKSPACE
+  - ''
+  - Gui+Sft+A
   - H
   - J
   - K
   - L
-  - {t: ;, h: RIGHT CONTROL}
+  - ENTER
   - ''
   - ''
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
   - B
-  - {t: '[', h: move_controller}
-  - ']'
+  - {t: TAB, h: LEFT SHIFT}
+  - {t: TAB, h: RIGHT SHIFT}
   - N
   - M
-  - ','
-  - {t: ., h: SCROLL}
-  - {t: /, h: LEFT SHIFT}
+  - RIGHT ALT
+  - {t: RIGHT CONTROL, h: SCROLL}
+  - DELETE
   - ''
   - ''
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - LEFT CONTROL
+  - LEFT ALT
   - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: BACKSPACE, h: FUN}
-  - {t: SPACE, h: NUM}
-  - {t: ENTER, h: move_controller}
+  - {t: SPACE, h: FUN}
+  - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - ''''
+  - {t: SPACE, h: move_controller}
+  - ESC
   - ''
   NUM:
   - {t: ▽, type: trans}
@@ -62,8 +62,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - /
   - '*'
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
@@ -84,7 +84,7 @@ layers:
   - F12
   - F13
   - F14
-  - Gui+Sft+A
+  - F15
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -189,7 +189,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+LEFT
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

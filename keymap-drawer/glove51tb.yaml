@@ -12,21 +12,21 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - ''
   - ''
   - A
   - S
   - D
   - F
   - G
-  - ''
-  - {t: Gui+Sft+A, h: DEFAULT}
+  - BACKSPACE
+  - DELETE
   - H
   - J
   - K
   - L
-  - '['
-  - ']'
+  - ''''
+  - ''
   - ''
   - Z
   - X
@@ -40,18 +40,18 @@ layers:
   - ','
   - {t: ., h: SCROLL}
   - ;
-  - ''''
+  - ''
   - ''
   - ESC
   - LEFT CONTROL
   - LEFT ALT
+  - {t: SPACE, h: move_controller}
   - {t: SPACE, h: NUM}
-  - {t: SPACE, h: FUN}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - {t: ENTER, h: move_controller}
+  - {t: ENTER, h: FUN}
   - /
-  - '|'
+  - ''
   NUM:
   - {t: ▽, type: trans}
   - F1
@@ -97,8 +97,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,10 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   move_controller:
@@ -201,11 +201,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

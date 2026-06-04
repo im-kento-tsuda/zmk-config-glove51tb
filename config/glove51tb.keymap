@@ -97,10 +97,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp SLASH  &trans
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS     &kp PLUS   &trans
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL  &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                  &trans     &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp EQUAL     &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &trans
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &trans
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp NUMBER_0  &trans
+&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                  &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -109,10 +109,10 @@
         symbal_layer {
             label = "FUN";
             bindings = <
-&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND   &kp PIPE           &kp BACKSLASH                         &kp SLASH              &kp ASTERISK       &kp MINUS        &kp PLUS          &kp EQUAL   &trans
-&trans  &kp CARET        &kp TILDE      &kp GRAVE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &trans  &trans  &kp COLON              &kp SEMICOLON      &kp COMMA        &kp PERIOD        &kp HASH    &trans
-&trans  &kp AT_SIGN      &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp DOLLAR  &trans
-&trans  &kp ESC          &trans         &trans          &trans             &trans                &trans  &trans  &trans                                                                       &trans      &trans
+&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND     &kp PIPE              &kp BACKSLASH                          &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp SLASH   &trans
+&trans  &kp CARET        &kp TILDE      &kp GRAVE         &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &trans  &trans  &kp COLON         &kp SEMICOLON      &kp COMMA       &kp PERIOD       &kp HASH    &trans
+&trans  &kp AT_SIGN      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOLLAR  &trans
+&trans  &trans           &trans         &trans            &trans                &trans                 &trans  &trans  &trans                                                                &trans      &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;

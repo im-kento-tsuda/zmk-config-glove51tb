@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - BACKSPACE
   - ''
   - A
   - S
@@ -20,13 +20,13 @@ layers:
   - F
   - G
   - ''
-  - Gui+Sft+A
+  - {t: Gui+Sft+A, h: SYM}
   - H
   - J
   - K
   - L
-  - BACKSPACE
-  - ''
+  - '['
+  - ']'
   - ''
   - Z
   - X
@@ -37,21 +37,21 @@ layers:
   - {t: TAB, h: RIGHT SHIFT}
   - N
   - M
-  - LEFT
-  - {t: RIGHT, h: SCROLL}
-  - UP
-  - ''
+  - ','
+  - {t: ., h: SCROLL}
+  - ;
+  - ''''
   - ''
   - ESC
   - LEFT CONTROL
   - LEFT ALT
-  - {t: LANGUAGE 2, h: LEFT COMMAND}
+  - {t: SPACE, h: NUM}
   - {t: SPACE, h: FUN}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - {t: ENTER, h: move_controller}
-  - DOWN
-  - ''
+  - /
+  - '|'
   NUM:
   - {t: ▽, type: trans}
   - F1
@@ -97,7 +97,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - RIGHT
-  - UP ARROW
+  - UP
   - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,9 +192,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - Ctl+UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,7 +332,7 @@ layers:
   - BT CLR ALL
   - BT CLR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - ''

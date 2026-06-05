@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - BACKSPACE
-  - BACKSPACE
+  - {t: TAB, h: LEFT SHIFT}
+  - {t: TAB, h: RIGHT SHIFT}
   - H
   - J
   - K
@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - {t: TAB, h: LEFT SHIFT}
-  - {t: TAB, h: RIGHT SHIFT}
+  - BACKSPACE
+  - BACKSPACE
   - N
   - M
   - ','
@@ -42,14 +42,14 @@ layers:
   - ;
   - ''
   - ''
-  - ESC
+  - {t: ESC, h: bluetooth}
   - LEFT CONTROL
   - LEFT ALT
-  - {t: SPACE, h: move_controller}
-  - {t: SPACE, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
+  - {t: SPACE, h: FUN}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: move_controller}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - {t: ENTER, h: FUN}
   - /
   - ''
   NUM:
@@ -98,8 +98,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,32 +121,29 @@ layers:
   - ^
   - '~'
   - '`'
-  - '#'
-  - $
+  - ''''
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
   - ;
   - ','
   - .
-  - ''''
+  - $
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '@'
   - <
-  - '>'
   - (
-  - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
-  - ']'
   - '{'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '}'
-  - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ']'
+  - )
+  - '>'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,6 +151,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   move_controller:
@@ -170,18 +170,18 @@ layers:
   - Gui+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - BT CLR
-  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
-  - UP
-  - DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,7 +191,10 @@ layers:
   - Gui+LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,9 +205,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -303,6 +303,58 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  bluetooth:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT CLR
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

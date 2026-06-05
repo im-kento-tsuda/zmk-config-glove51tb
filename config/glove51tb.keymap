@@ -97,7 +97,7 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp EQUAL     &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp EQUAL     &kp MINUS     &kp PLUS      &kp ASTERISK  &kp SLASH     &trans
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &trans
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp NUMBER_0  &trans
 &trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                  &trans        &trans
@@ -109,7 +109,7 @@
         symbal_layer {
             label = "FUN";
             bindings = <
-&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND         &kp PIPE          &kp BACKSLASH                      &kp EQUAL        &kp PLUS           &kp MINUS              &kp ASTERISK      &kp SLASH   &trans
+&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND         &kp PIPE          &kp BACKSLASH                      &kp EQUAL        &kp MINUS          &kp PLUS               &kp ASTERISK      &kp SLASH   &trans
 &trans  &kp CARET        &kp TILDE      &kp GRAVE             &kp SQT           &kp DOUBLE_QUOTES  &trans  &trans  &kp COLON        &kp SEMICOLON      &kp COMMA              &kp PERIOD        &kp DOLLAR  &trans
 &trans  &kp AT_SIGN      &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE     &trans  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp HASH    &trans
 &trans  &trans           &trans         &trans                &trans            &trans             &trans  &trans  &trans                                                                       &trans      &trans

@@ -28,7 +28,7 @@ layers:
   - ''''
   - ''
   - ''
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -39,7 +39,7 @@ layers:
   - M
   - ','
   - {t: ., h: SCROLL}
-  - ;
+  - {t: ;, h: RIGHT SHIFT}
   - ''
   - ''
   - {t: ESC, h: bluetooth}

@@ -85,10 +85,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&none  &kp Q             &kp W             &kp E         &kp R                        &kp T                                                 &kp Y                         &kp U  &kp I      &kp O         &kp P                      &none
-&none  &kp A             &kp S             &kp D         &kp F                        &kp G        &mt LEFT_SHIFT TAB  &mt RIGHT_SHIFT TAB  &kp H                         &kp J  &kp K      &kp L         &kp SINGLE_QUOTE           &none
-&none  &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp BACKSPACE       &kp BACKSPACE        &kp N                         &kp M  &kp COMMA  &lt 5 PERIOD  &mt RIGHT_SHIFT SEMICOLON  &none
-&none  &lt 6 ESC         &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 2 SPACE  &lt 1 SPACE         &lt 3 ENTER          &mt RIGHT_COMMAND LANGUAGE_1                                  &kp SLASH                  &none
+&none  &kp Q      &kp W             &kp E         &kp R                        &kp T                                                 &kp Y                         &kp U  &kp I      &kp O         &kp P                      &none
+&none  &kp A      &kp S             &kp D         &kp F                        &kp G        &mt LEFT_SHIFT TAB  &mt RIGHT_SHIFT TAB  &kp H                         &kp J  &kp K      &kp L         &kp SINGLE_QUOTE           &none
+&none  &kp Z      &kp X             &kp C         &kp V                        &kp B        &kp BACKSPACE       &kp BACKSPACE        &kp N                         &kp M  &kp COMMA  &lt 5 PERIOD  &mt RIGHT_SHIFT SEMICOLON  &none
+&none  &lt 6 ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 2 SPACE  &lt 1 BACKSPACE     &lt 3 ENTER          &mt RIGHT_COMMAND LANGUAGE_1                                  &kp SLASH                  &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;

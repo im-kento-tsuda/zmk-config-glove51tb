@@ -85,10 +85,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&none  &kp Q    &kp W             &kp E         &kp R        &kp T                                                                   &kp Y        &kp U  &kp I      &kp O         &kp P             &none
-&none  &kp A    &kp S             &kp D         &kp F        &kp G        &kp BACKSPACE                &kp BACKSPACE                 &kp H        &kp J  &kp K      &kp L         &kp SINGLE_QUOTE  &none
-&none  &kp Z    &kp X             &kp C         &kp V        &kp B        &mt LEFT_SHIFT TAB           &mt RIGHT_SHIFT TAB           &kp N        &kp M  &kp COMMA  &lt 5 PERIOD  &kp SEMICOLON     &none
-&none  &kp ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 SPACE  &lt 1 SPACE  &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANGUAGE_1  &lt 2 ENTER                                  &kp SLASH         &none
+&none  &kp Q      &kp W             &kp E         &kp R                        &kp T                                                 &kp Y                         &kp U  &kp I      &kp O         &kp P             &none
+&none  &kp A      &kp S             &kp D         &kp F                        &kp G        &mt LEFT_SHIFT TAB  &mt RIGHT_SHIFT TAB  &kp H                         &kp J  &kp K      &kp L         &kp SINGLE_QUOTE  &none
+&none  &kp Z      &kp X             &kp C         &kp V                        &kp B        &kp BACKSPACE       &kp BACKSPACE        &kp N                         &kp M  &kp COMMA  &lt 5 PERIOD  &kp SEMICOLON     &none
+&none  &lt 6 ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 2 SPACE  &lt 1 SPACE         &lt 3 ENTER          &mt RIGHT_COMMAND LANGUAGE_1                                  &kp SLASH         &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -109,10 +109,10 @@
         symbal_layer {
             label = "FUN";
             bindings = <
-&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND     &kp PIPE              &kp BACKSLASH                          &kp EQUAL         &kp PLUS           &kp MINUS       &kp ASTERISK     &kp SLASH          &trans
-&trans  &kp CARET        &kp TILDE      &kp GRAVE         &kp HASH              &kp DOLLAR             &trans  &trans  &kp COLON         &kp SEMICOLON      &kp COMMA       &kp PERIOD       &kp SQT            &trans
-&trans  &kp AT_SIGN      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES  &trans
-&trans  &trans           &trans         &trans            &trans                &trans                 &trans  &trans  &trans                                                                &trans             &trans
+&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND         &kp PIPE          &kp BACKSLASH                      &kp EQUAL        &kp PLUS           &kp MINUS              &kp ASTERISK      &kp SLASH   &trans
+&trans  &kp CARET        &kp TILDE      &kp GRAVE             &kp SQT           &kp DOUBLE_QUOTES  &trans  &trans  &kp COLON        &kp SEMICOLON      &kp COMMA              &kp PERIOD        &kp DOLLAR  &trans
+&trans  &kp AT_SIGN      &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE     &trans  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp HASH    &trans
+&trans  &trans           &trans         &trans                &trans            &trans             &trans  &trans  &trans                                                                       &trans      &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -121,8 +121,8 @@
         move_controller_layer {
             bindings = <
 &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS        &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LG(MINUS)  &kp LG(EQUAL)  &trans
-&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR            &bt BT_CLR_ALL    &trans  &trans  &trans      &kp LEFT           &kp RIGHT        &kp UP         &kp DOWN       &trans
-&trans  &trans                &kp LG(LA(F))         &kp LG(LS(LEFT_ALT))  &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &trans      &trans             &trans           &trans         &trans         &trans
+&trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans  &trans      &trans             &trans           &trans         &trans         &trans
+&trans  &trans                &kp LG(LA(F))         &kp LG(LS(LEFT_ALT))  &kp LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &kp LEFT    &kp RIGHT          &kp UP           &kp DOWN       &trans         &trans
 &trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans  &trans                                                         &trans         &trans
             >;
         };
@@ -144,6 +144,15 @@
 &trans  &trans                    &trans                     &trans                &trans                 &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
 &trans  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans                    &trans                     &trans                &trans                 &trans  &trans  &trans  &trans                                &trans  &trans
+            >;
+        };
+
+        bluetooth {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans        &trans        &trans        &trans      &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans      &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                &trans          &trans
             >;
         };
     };

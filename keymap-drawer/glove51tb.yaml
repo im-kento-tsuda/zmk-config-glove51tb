@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - {t: TAB, h: LEFT SHIFT}
-  - {t: TAB, h: RIGHT SHIFT}
+  - {t: ▽, type: trans}
+  - BACKSPACE
   - H
   - J
   - K
@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - BACKSPACE
-  - BACKSPACE
+  - {t: TAB, h: LEFT SHIFT}
+  - {t: TAB, h: RIGHT SHIFT}
   - N
   - M
   - ','
@@ -45,11 +45,11 @@ layers:
   - {t: ESC, h: bluetooth}
   - LEFT CONTROL
   - LEFT ALT
-  - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: SPACE, h: FUN}
   - {t: BACKSPACE, h: NUM}
-  - {t: ENTER, h: move_controller}
+  - {t: SPACE, h: FUN}
+  - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
+  - {t: ENTER, h: move_controller}
   - /
   - ''
   NUM:
@@ -97,9 +97,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -204,8 +204,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

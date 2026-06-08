@@ -45,11 +45,11 @@ layers:
   - {t: ESC, h: bluetooth}
   - LEFT CONTROL
   - LEFT ALT
-  - BACKSPACE
-  - {t: SPACE, h: FUN}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - {t: ENTER, h: NUM}
+  - {t: SPACE, h: NUM}
+  - BACKSPACE
+  - {t: ENTER, h: FUN}
   - /
   - ''
   NUM:
@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -150,10 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   move_controller:
@@ -202,8 +202,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}

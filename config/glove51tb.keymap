@@ -18,6 +18,7 @@
 #define MOUSE   4
 #define SCROLL  5
 
+
 &mmv {
     delay-ms = <20>;
     trigger-period-ms = <5>;
@@ -30,6 +31,16 @@
     trigger-period-ms = <3>;
     time-to-max-speed-ms = <100>;
     acceleration-exponent = <0>;
+};
+
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <2 3>;   // 親指の &lt 2 と &lt 3 の両方が押されたら
+            then-layer = <4>;    // レイヤー4を有効化
+        };
+    };
 };
 
 / {

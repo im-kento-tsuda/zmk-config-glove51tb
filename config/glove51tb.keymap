@@ -32,7 +32,15 @@
     acceleration-exponent = <0>;
 };
 
-conditional_layers { compatible = "zmk,conditional-layers"; };
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;   // 左親指(&lt 2 SPACE)＋右親指(&lt 1 ENTER)を同時押し
+            then-layer = <3>;    // → move_controller_layer(レイヤー3)を有効化
+        };
+    };
+};
 
 / {
     input_processors {

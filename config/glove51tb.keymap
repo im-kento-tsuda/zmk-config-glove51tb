@@ -35,8 +35,8 @@
 conditional_layers {
     compatible = "zmk,conditional-layers";
     tri_layer {
-        if-layers = <2 3>;    // 左親指(&lt 2)＋右親指(&lt 3)を同時押し
-        then-layer = <4>;     // → MOUSE レイヤーを有効化
+        if-layers = <1 2>;    // 左親指(&lt 2)＋右親指(&lt 3)を同時押し
+        then-layer = <3>;     // → MOUSE レイヤーを有効化
     };
 };
 

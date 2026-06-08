@@ -177,6 +177,7 @@ layers:
   - Gui+LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - RIGHT
   - UP
@@ -194,7 +195,6 @@ layers:
   - Ctl+LEFT
   - Ctl+RIGHT
   - Ctl+UP
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

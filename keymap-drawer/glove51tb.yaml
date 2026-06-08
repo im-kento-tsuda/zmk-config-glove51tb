@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - Sft+Gui+A
   - H
   - J
   - K
@@ -45,7 +45,7 @@ layers:
   - {t: ESC, h: bluetooth}
   - LEFT CONTROL
   - LEFT ALT
-  - {t: BACKSPACE, h: NUM}
+  - BACKSPACE
   - {t: SPACE, h: FUN}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
@@ -97,7 +97,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

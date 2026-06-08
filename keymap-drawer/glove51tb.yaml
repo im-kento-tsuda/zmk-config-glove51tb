@@ -28,7 +28,7 @@ layers:
   - ''''
   - ''
   - ''
-  - {t: A, h: LEFT SHIFT}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -202,10 +202,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

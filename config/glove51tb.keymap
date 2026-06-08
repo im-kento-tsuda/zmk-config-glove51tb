@@ -32,13 +32,7 @@
     acceleration-exponent = <0>;
 };
 
-conditional_layers {
-    compatible = "zmk,conditional-layers";
-    tri_layer {
-        if-layers = <1 2>;    // 左親指(&lt 2)＋右親指(&lt 3)を同時押し
-        then-layer = <3>;     // → MOUSE レイヤーを有効化
-    };
-};
+conditional_layers { compatible = "zmk,conditional-layers"; };
 
 / {
     input_processors {
@@ -93,10 +87,10 @@ conditional_layers {
         default_layer {
             label = "DEFAULT";
             bindings = <
-&none  &kp Q      &kp W             &kp E         &kp R          &kp T                                                                   &kp Y        &kp U  &kp I      &kp O         &kp P                      &none
-&none  &kp A      &kp S             &kp D         &kp F          &kp G        &trans                       &kp LS(LG(A))                 &kp H        &kp J  &kp K      &kp L         &kp SINGLE_QUOTE           &none
-&none  &kp Z      &kp X             &kp C         &kp V          &kp B        &mt LEFT_SHIFT TAB           &mt RIGHT_SHIFT TAB           &kp N        &kp M  &kp COMMA  &lt 5 PERIOD  &mt RIGHT_SHIFT SEMICOLON  &none
-&none  &lt 6 ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANGUAGE_1  &lt 1 ENTER                                  &kp SLASH                  &none
+&none  &kp Q             &kp W             &kp E         &kp R          &kp T                                                                   &kp Y        &kp U  &kp I      &kp O         &kp P                      &none
+&none  &kp A             &kp S             &kp D         &kp F          &kp G        &trans                       &kp LS(LG(A))                 &kp H        &kp J  &kp K      &kp L         &kp SINGLE_QUOTE           &none
+&none  &mt LEFT_SHIFT A  &kp X             &kp C         &kp V          &kp B        &mt LEFT_SHIFT TAB           &mt RIGHT_SHIFT TAB           &kp N        &kp M  &kp COMMA  &lt 5 PERIOD  &mt RIGHT_SHIFT SEMICOLON  &none
+&none  &lt 6 ESC         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANGUAGE_1  &lt 1 ENTER                                  &kp SLASH                  &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;

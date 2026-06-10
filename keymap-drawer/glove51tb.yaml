@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - ''
+  - ESCAPE
   - Q
   - W
   - E
@@ -13,39 +13,39 @@ layers:
   - O
   - P
   - BACKSPACE
-  - ''
+  - TAB
   - A
   - S
   - D
   - F
   - G
   - {t: ▽, type: trans}
-  - Sft+Gui+TAB
+  - ''
   - H
   - J
   - K
   - L
   - ''''
   - ENTER
-  - ''
-  - {t: Z, h: LEFT SHIFT}
+  - LEFT CONTROL
+  - Z
   - X
   - C
   - V
   - B
   - {t: TAB, h: LEFT SHIFT}
-  - {t: ▽, type: trans}
+  - {t: TAB, h: RIGHT SHIFT}
   - N
   - M
   - ','
   - {t: ., h: SCROLL}
-  - {t: ;, h: RIGHT SHIFT}
+  - ;
   - /
   - ''
-  - {t: ESC, h: bluetooth}
-  - LEFT CONTROL
-  - LEFT ALT
-  - NUM
+  - ''
+  - ''
+  - ''
+  - {t: LEFT ALT, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: SPACE, h: FUN}
   - {t: SPACE, h: move_controller}
@@ -54,16 +54,16 @@ layers:
   - ''
   NUM:
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - '='
-  - '-'
-  - +
-  - '*'
-  - /
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
@@ -354,7 +354,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

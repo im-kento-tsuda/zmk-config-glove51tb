@@ -27,14 +27,14 @@ layers:
   - L
   - ;
   - ''''
-  - LEFT SHIFT
+  - {t: TAB, h: LEFT SHIFT}
   - Z
   - X
   - C
   - V
   - B
-  - {t: TAB, h: LEFT SHIFT}
-  - {t: TAB, h: RIGHT SHIFT}
+  - '['
+  - ']'
   - N
   - M
   - ','

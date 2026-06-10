@@ -19,7 +19,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - '-'
   - '='
   - H
   - J

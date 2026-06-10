@@ -47,8 +47,8 @@ layers:
   - ''
   - {t: LEFT ALT, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: SPACE, h: move_controller}
   - {t: SPACE, h: FUN}
+  - {t: SPACE, h: move_controller}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - ''
   - ''
@@ -151,8 +151,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,8 +203,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

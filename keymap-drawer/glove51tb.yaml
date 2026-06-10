@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - ESCAPE
+  - {t: ESCAPE, h: LEFT ALT}
   - Q
   - W
   - E
@@ -45,11 +45,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: LEFT ALT, h: NUM}
-  - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: SPACE, h: FUN}
-  - {t: SPACE, h: move_controller}
+  - {t: LANG2, h: LEFT COMMAND}
+  - {t: SPACE, h: NUM}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
+  - {t: SPACE, h: move_controller}
+  - {t: ENTER, h: FUN}
   - ''
   - ''
   NUM:
@@ -97,8 +97,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,9 +151,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   move_controller:

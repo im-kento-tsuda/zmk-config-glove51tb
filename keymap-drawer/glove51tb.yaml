@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - {t: ESCAPE, h: LEFT ALT}
+  - {t: '`', h: LEFT ALT}
   - Q
   - W
   - E
@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - ''
+  - ESC
   - H
   - J
   - K
@@ -40,7 +40,7 @@ layers:
   - ','
   - {t: ., h: SCROLL}
   - /
-  - RIGHT SHIFT
+  - {t: '-', h: RIGHT SHIFT}
   - ''
   - ''
   - ''
@@ -118,8 +118,8 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -140,10 +140,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '{'
-  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

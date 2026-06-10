@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - TAB
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ''''
   - ENTER
-  - LEFT CONTROL
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -40,15 +40,15 @@ layers:
   - ','
   - {t: ., h: SCROLL}
   - ;
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - ''
   - ''
   - ''
   - ''
   - {t: LEFT ALT, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: SPACE, h: FUN}
   - {t: SPACE, h: move_controller}
+  - SPACE
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - ''
   - ''
@@ -66,32 +66,32 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
-  - F12
-  - F13
-  - F14
-  - F15
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '-'
+  - +
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,7 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,24 +178,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
+  - {t: ▽, type: trans}
   - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
   - DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - Ctl+UP
-  - {t: ▽, type: trans}
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,6 +204,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

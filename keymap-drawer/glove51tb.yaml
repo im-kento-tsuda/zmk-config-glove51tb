@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - '|'
   - LEFT CONTROL
   - A
   - S
@@ -25,8 +25,8 @@ layers:
   - J
   - K
   - L
+  - ;
   - ''''
-  - ENTER
   - LEFT SHIFT
   - Z
   - X
@@ -39,8 +39,8 @@ layers:
   - M
   - ','
   - {t: ., h: SCROLL}
-  - ;
-  - {t: /, h: RIGHT SHIFT}
+  - /
+  - RIGHT SHIFT
   - ''
   - ''
   - ''
@@ -48,7 +48,7 @@ layers:
   - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 1, h: RIGHT COMMAND}
-  - {t: SPACE, h: move_controller}
+  - BACKSPACE
   - {t: ENTER, h: FUN}
   - ''
   - ''
@@ -125,11 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - +
   - '='
-  - '|'
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,10 +202,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

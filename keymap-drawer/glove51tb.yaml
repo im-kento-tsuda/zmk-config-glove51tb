@@ -48,7 +48,7 @@ layers:
   - {t: BACKSPACE, h: controller}
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
-  - {t: LANGUAGE 2, h: RIGHT COMMAND}
+  - {t: LANG1, h: RIGHT COMMAND}
   - {t: ENTER, h: FUN}
   - '!'
   - ''

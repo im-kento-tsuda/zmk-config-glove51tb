@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - {t: TAB, h: LEFT SHIFT}
+  - {t: ESC, h: LEFT SHIFT}
   - {t: TAB, h: RIGHT SHIFT}
   - N
   - M

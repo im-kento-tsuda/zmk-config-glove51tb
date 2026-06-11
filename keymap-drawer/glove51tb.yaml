@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - {t: ESC, h: LEFT ALT}
+  - ''
   - Q
   - W
   - E
@@ -12,43 +12,43 @@ layers:
   - I
   - O
   - P
-  - '|'
-  - {t: '`', h: LEFT CONTROL}
+  - ''
+  - ''
   - A
   - S
   - D
   - F
   - G
-  - '-'
-  - '='
+  - {t: ▽, type: trans}
+  - ESC
   - H
   - J
   - K
   - L
-  - ;
-  - ''''
-  - {t: TAB, h: LEFT SHIFT}
-  - Z
+  - '-'
+  - ''
+  - ''
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - '['
-  - ']'
+  - {t: TAB, h: LEFT ALT}
+  - {t: TAB, h: RIGHT CONTROL}
   - N
   - M
   - ','
   - {t: ., h: SCROLL}
-  - /
-  - {t: '-', h: RIGHT SHIFT}
+  - {t: /, h: RIGHT SHIFT}
+  - ''
   - ''
   - ''
   - ''
   - ''
   - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: NUM}
-  - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - BACKSPACE
+  - {t: LANGUAGE 1, h: RIGHT COMMAND}
   - {t: ENTER, h: FUN}
   - ''
   - ''
@@ -118,7 +118,7 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+F
+  - LEFT CONTROL
   - Gui+LEFT CONTROL
   - Gui+Sft+LEFT ALT
   - Gui+Ctl+LEFT ALT
@@ -126,24 +126,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT
-  - DOWN
   - RIGHT
+  - UP
+  - DOWN
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ;
+  - \
+  - '|'
+  - '-'
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

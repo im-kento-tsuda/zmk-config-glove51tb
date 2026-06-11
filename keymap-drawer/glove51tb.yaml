@@ -45,7 +45,7 @@ layers:
   - '~'
   - LEFT CONTROL
   - LEFT ALT
-  - {t: BACKSPACE, h: controller}
+  - BACKSPACE
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANG1, h: RIGHT COMMAND}
@@ -201,11 +201,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:

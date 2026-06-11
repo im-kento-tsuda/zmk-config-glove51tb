@@ -118,7 +118,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+F
+  - {t: Gui+Alt+F, h: LEFT CONTROL}
   - Gui+LEFT CONTROL
   - Gui+Sft+LEFT ALT
   - Gui+Ctl+LEFT ALT

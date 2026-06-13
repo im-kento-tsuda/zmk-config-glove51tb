@@ -63,6 +63,11 @@
             bindings = <&mo 5>;
             key-positions = <35 36>;
         };
+
+        fixed-mouse-layer {
+            bindings = <&tog 4>;
+            key-positions = <46 47>;
+        };
     };
 
     behaviors {
@@ -144,7 +149,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 5   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mo 5   &trans  &trans  &trans                                &trans  &trans
             >;
         };
 

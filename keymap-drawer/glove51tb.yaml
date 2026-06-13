@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - {t: ESC, h: LEFT SHIFT}
-  - {t: TAB, h: RIGHT SHIFT}
+  - {t: '!', h: LEFT SHIFT}
+  - {t: ESC, h: RIGHT SHIFT}
   - N
   - M
   - ','
@@ -42,7 +42,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ''
   - ''
-  - '~'
+  - TAB
   - LEFT CONTROL
   - LEFT ALT
   - BACKSPACE
@@ -50,7 +50,7 @@ layers:
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANG1, h: RIGHT COMMAND}
   - {t: ENTER, h: FUN}
-  - '!'
+  - '~'
   - ''
   FUN:
   - {t: ▽, type: trans}

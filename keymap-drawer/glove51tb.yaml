@@ -254,7 +254,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -315,3 +315,5 @@ layers:
 combos:
 - p: [35, 36]
   k: SCROLL
+- p: [46, 47]
+  k: {t: MOUSE, h: toggle}

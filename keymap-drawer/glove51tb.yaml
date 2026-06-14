@@ -42,7 +42,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ''
   - ''
-  - TAB
+  - {t: TAB, h: LEFT COMMAND}
   - LEFT CONTROL
   - LEFT ALT
   - BACKSPACE

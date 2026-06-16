@@ -128,8 +128,8 @@ layers:
   - Gui+Alt+F
   - LEFT
   - RIGHT
-  - DOWN
   - UP
+  - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: F6, h: LEFT SHIFT}

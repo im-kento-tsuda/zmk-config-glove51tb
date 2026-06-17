@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - {t: '!', h: LEFT SHIFT}
+  - {t: TAB, h: LEFT SHIFT}
   - {t: ESC, h: RIGHT SHIFT}
   - N
   - M
@@ -42,7 +42,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ''
   - ''
-  - {t: TAB, h: LEFT COMMAND}
+  - {t: '!', h: LEFT COMMAND}
   - LEFT CONTROL
   - LEFT ALT
   - BACKSPACE

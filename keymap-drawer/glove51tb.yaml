@@ -121,7 +121,7 @@ layers:
   - {t: TAB, h: LEFT CONTROL}
   - Gui+Sft+[
   - {t: 'Gui+Sft+]', h: Gui+LEFT SHIFT}
-  - {t: 'Gui+Sft+[', h: LEFT SHIFT}
+  - {t: 'Gui+[', h: LEFT SHIFT}
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -316,4 +316,4 @@ combos:
 - p: [35, 36]
   k: DEFAULT
 - p: [46, 47]
-  k: {t: MOUSE, h: toggle}
+  k: {t: controller, h: toggle}

@@ -127,8 +127,8 @@ layers:
   - {t: ▽, type: trans}
   - .
   - LEFT
-  - UP
   - RIGHT
+  - UP
   - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

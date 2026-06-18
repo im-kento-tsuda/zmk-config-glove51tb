@@ -119,9 +119,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT CONTROL}
-  - {t: 'Gui+Sft+[', h: Gui+LEFT SHIFT}
-  - {t: 'Gui+Sft+]', h: LSHIFT}
-  - {t: 'Gui+[', h: LEFT COMMAND}
+  - Gui+Sft+[
+  - Gui+Sft+]
+  - Gui+[
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,18 +132,18 @@ layers:
   - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT SHIFT
+  - LEFT SHIFT
+  - LEFT COMMAND
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '='
   - '-'
   - +
   - '*'
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -132,7 +132,7 @@ layers:
   - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+[
+  - {t: 'Sft+Gui+[', h: LEFT SHIFT}
   - Gui+Sft+]
   - Gui+[
   - Gui+]

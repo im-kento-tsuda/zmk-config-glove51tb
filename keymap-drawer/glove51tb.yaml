@@ -120,8 +120,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT CONTROL}
   - Gui+LEFT CONTROL
-  - Gui+Sft+LEFT ALT
-  - Gui+Ctl+LEFT ALT
+  - {t: Gui+Sft+LEFT ALT, h: Gui+LEFT SHIFT}
+  - {t: Gui+Ctl+LEFT ALT, h: LEFT SHIFT}
   - Gui+LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

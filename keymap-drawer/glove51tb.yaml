@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT CONTROL}
-  - Gui+LEFT CONTROL
-  - {t: Gui+Sft+LEFT ALT, h: Gui+LEFT SHIFT}
-  - {t: Gui+Ctl+LEFT ALT, h: LEFT SHIFT}
-  - Gui+LEFT ALT
+  - Gui+Sft+[
+  - {t: 'Gui+Sft+]', h: Gui+LEFT SHIFT}
+  - {t: 'Gui+Sft+[', h: LEFT SHIFT}
+  - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Alt+F
@@ -274,16 +274,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+[
-  - Gui+Sft+]
-  - Gui+[
-  - Gui+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -296,8 +286,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

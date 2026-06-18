@@ -65,7 +65,7 @@
         };
 
         fixed-mouse-layer {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <46 47>;
         };
     };

@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - '['
-  - ']'
+  - TAB
+  - TAB
   - H
   - J
   - K
@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - {t: TAB, h: LEFT SHIFT}
-  - {t: ESC, h: RIGHT SHIFT}
+  - ESC
+  - ESC
   - N
   - {t: M, type: held}
   - {t: ',', type: held}

@@ -141,8 +141,8 @@ layers:
   - {t: ▽, type: trans}
   - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,18 +170,18 @@ layers:
   - Gui++
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Alt+F
+  - Gui+Ctl+LEFT
+  - Gui+Sft+Alt+LEFT
+  - Gui+Ctl+Alt+LEFT
+  - Gui+Alt+LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+Sft+A
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Alt+RIGHT
+  - Gui+Ctl+Alt+RIGHT
+  - Gui+Sft+Alt+RIGHT
+  - Gui+Ctl+RIGHT
+  - Gui+Alt+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

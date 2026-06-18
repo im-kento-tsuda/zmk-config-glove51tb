@@ -38,7 +38,7 @@
 
         dublle {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 };
@@ -60,12 +60,12 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 5>;
+            bindings = <&mo 0>;
             key-positions = <35 36>;
         };
 
         fixed-mouse-layer {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <46 47>;
         };
     };
@@ -101,10 +101,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&none  &kp Q                         &kp W             &kp E         &kp R          &kp T                                                              &kp Y        &kp U  &kp I      &kp O         &kp P                  &none
-&none  &kp A                         &kp S             &kp D         &kp F          &kp G        &kp LEFT_BRACKET             &kp RIGHT_BRACKET        &kp H        &kp J  &kp K      &kp L         &kp MINUS              &none
-&none  &mt LEFT_SHIFT Z              &kp X             &kp C         &kp V          &kp B        &mt LEFT_SHIFT TAB           &mt RIGHT_SHIFT ESC      &kp N        &kp M  &kp COMMA  &lt 5 PERIOD  &mt RIGHT_SHIFT SLASH  &none
-&none  &mt LEFT_COMMAND EXCLAMATION  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANG1  &lt 1 ENTER                                  &kp TILDE              &none
+&none  &kp Q                         &kp W             &kp E         &kp R          &kp T                                                              &kp Y        &kp U  &kp I      &kp O       &kp P                  &none
+&none  &kp A                         &kp S             &kp D         &kp F          &kp G        &kp LEFT_BRACKET             &kp RIGHT_BRACKET        &kp H        &kp J  &kp K      &kp L       &kp MINUS              &none
+&none  &mt LEFT_SHIFT Z              &kp X             &kp C         &kp V          &kp B        &mt LEFT_SHIFT TAB           &mt RIGHT_SHIFT ESC      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH  &none
+&none  &mt LEFT_COMMAND EXCLAMATION  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 3 SPACE  &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANG1  &lt 1 ENTER                                &kp TILDE              &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -125,13 +125,23 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp NUMBER_1          &kp NUMBER_2              &kp NUMBER_3                              &kp NUMBER_4                         &kp N5                                 &kp NUMBER_6   &kp N7    &kp N8     &kp N9     &kp N0    &trans
-&trans  &mt LEFT_CONTROL TAB  &kp LG(LS(LEFT_BRACKET))  &mt LG(LEFT_SHIFT) LG(LS(RIGHT_BRACKET))  &mt LEFT_SHIFT LG(LS(LEFT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans  &kp LG(LA(F))  &kp LEFT  &kp UP     &kp RIGHT  &kp DOWN  &trans
-&trans  &mt LEFT_SHIFT F6     &kp F7                    &kp F8                                    &kp F9                               &kp F10                &trans  &trans  &kp F12        &trans    &mkp LCLK  &mkp RCLK  &trans    &trans
-&trans  &trans                &trans                    &trans                                    &trans                               &trans                 &trans  &trans  &trans                                         &trans    &trans
+&trans  &kp NUMBER_1          &kp NUMBER_2              &kp NUMBER_3                              &kp NUMBER_4                         &kp N5                                 &kp NUMBER_6   &kp N7     &kp N8     &kp N9     &kp N0    &trans
+&trans  &mt LEFT_CONTROL TAB  &kp LG(LS(LEFT_BRACKET))  &mt LG(LEFT_SHIFT) LG(LS(RIGHT_BRACKET))  &mt LEFT_SHIFT LG(LS(LEFT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans  &kp LG(LA(F))  &kp LEFT   &kp UP     &kp RIGHT  &kp DOWN  &trans
+&trans  &mt LEFT_SHIFT F6     &kp F7                    &kp F8                                    &kp F9                               &kp F10                &trans  &trans  &kp F12        &mkp LCLK  &mkp RCLK  &trans     &trans    &trans
+&trans  &trans                &trans                    &trans                                    &trans                               &trans                 &trans  &trans  &trans                                          &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
+        };
+
+        scroll_layer {
+            label = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
         };
 
         controller_layer {
@@ -146,20 +156,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans           &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 5   &trans  &trans
-&trans  &trans  &trans  &trans  &lt 5 BACKSPACE  &trans  &trans  &trans  &trans                                &trans  &trans
-            >;
-        };
-
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 0   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
             >;
         };
     };

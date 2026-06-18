@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT CONTROL}
-  - Gui+LEFT SHIFT
+  - Gui+LEFT ALT
   - LEFT SHIFT
   - LEFT COMMAND
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .

@@ -114,18 +114,18 @@
             bindings = <
 &trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND   &kp PIPE          &kp PERCENT                           &kp LA(BACKSLASH)      &kp HASH           &kp SQT          &kp DOUBLE_QUOTES  &kp GRAVE  &trans
 &trans  &kp AT_SIGN      &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN   &kp TILDE  &trans
-&trans  &kp COMMA        &kp PERIOD     &kp COLON       &kp SEMICOLON     &kp DOLLAR            &trans  &trans  &kp EQUAL              &kp MINUS          &kp PLUS         &kp ASTERISK       &kp SLASH  &trans
-&trans  &kp CARET        &trans         &trans          &trans            &trans                &trans  &trans  &trans                                                                        &trans     &trans
+&trans  &kp COLON        &kp SEMICOLON  &kp CARET       &kp PERIOD        &kp DOLLAR            &trans  &trans  &kp EQUAL              &kp MINUS          &kp PLUS         &kp ASTERISK       &kp SLASH  &trans
+&trans  &trans           &trans         &trans          &trans            &trans                &trans  &trans  &trans                                                                        &trans     &trans
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp NUMBER_1                         &kp NUMBER_2               &kp NUMBER_3          &kp NUMBER_4           &kp N5                      &kp NUMBER_6  &kp N7     &kp N8     &kp N9        &kp N0     &trans
-&trans  &mt LEFT_CONTROL TAB                 &kp LG(LEFT_SHIFT)         &kp LEFT_SHIFT        &kp LEFT_COMMAND       &trans      &trans  &trans  &kp PERIOD    &kp LEFT   &kp RIGHT  &kp UP        &kp DOWN   &trans
-&trans  &mt LEFT_SHIFT LS(LG(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp DOLLAR  &trans  &trans  &kp EQUAL     &kp MINUS  &kp PLUS   &kp ASTERISK  &kp SLASH  &trans
-&trans  &trans                               &trans                     &trans                &trans                 &trans      &trans  &trans  &trans                                            &trans     &trans
+&trans  &kp NUMBER_1                         &kp NUMBER_2               &kp NUMBER_3          &kp NUMBER_4           &kp N5                        &kp NUMBER_6  &kp N7     &kp N8     &kp N9        &kp N0     &trans
+&trans  &mt LEFT_CONTROL TAB                 &kp LG(LEFT_SHIFT)         &kp LEFT_SHIFT        &kp LEFT_COMMAND       &kp LEFT_ALT  &trans  &trans  &kp PERIOD    &kp LEFT   &kp RIGHT  &kp UP        &kp DOWN   &trans
+&trans  &mt LEFT_SHIFT LS(LG(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp DOLLAR    &trans  &trans  &kp EQUAL     &kp MINUS  &kp PLUS   &kp ASTERISK  &kp SLASH  &trans
+&trans  &trans                               &trans                     &trans                &trans                 &trans        &trans  &trans  &trans                                            &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;

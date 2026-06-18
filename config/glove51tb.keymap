@@ -125,10 +125,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3                         &kp NUMBER_4                     &kp N5                            &kp NUMBER_6   &kp N7    &kp N8  &kp N9     &kp N0    &trans
-&trans  &mt LEFT_CONTROL TAB  &kp LG(LEFT_CONTROL)  &mt LG(LEFT_SHIFT) LG(LS(LEFT_ALT))  &mt LEFT_SHIFT LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &kp LG(LA(F))  &kp LEFT  &kp UP  &kp RIGHT  &kp DOWN  &trans
-&trans  &mt LEFT_SHIFT F6     &kp F7                &kp F8                               &kp F9                           &kp F10           &trans  &trans  &kp F12        &trans    &trans  &trans     &trans    &trans
-&trans  &trans                &trans                &trans                               &trans                           &trans            &trans  &trans  &trans                                      &trans    &trans
+&trans  &kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3                         &kp NUMBER_4                     &kp N5                            &kp NUMBER_6   &kp N7    &kp N8     &kp N9     &kp N0    &trans
+&trans  &mt LEFT_CONTROL TAB  &kp LG(LEFT_CONTROL)  &mt LG(LEFT_SHIFT) LG(LS(LEFT_ALT))  &mt LEFT_SHIFT LG(LC(LEFT_ALT))  &kp LG(LEFT_ALT)  &trans  &trans  &kp LG(LA(F))  &kp LEFT  &kp UP     &kp RIGHT  &kp DOWN  &trans
+&trans  &mt LEFT_SHIFT F6     &kp F7                &kp F8                               &kp F9                           &kp F10           &trans  &trans  &kp F12        &trans    &mkp LCLK  &mkp RCLK  &trans    &trans
+&trans  &trans                &trans                &trans                               &trans                           &trans            &trans  &trans  &trans                                         &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -136,10 +136,10 @@
 
         controller_layer {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PAUSE     &kp C_NEXT                  &kp C_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LG(MINUS)  &kp LG(PLUS)  &trans
-&trans  &trans                &trans                &trans          &trans          &trans      &trans  &trans  &kp LG(LS(A))  &trans             &trans           &trans         &trans        &trans
-&trans  &trans                &trans                &trans          &bt BT_CLR_ALL  &bt BT_CLR  &trans  &trans  &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4  &trans
-&trans  &trans                &trans                &trans          &trans          &trans      &trans  &trans  &trans                                                            &trans        &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS        &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE         &kp C_VOLUME_DOWN      &kp C_VOLUME_UP        &kp LG(MINUS)      &kp LG(PLUS)   &trans
+&trans  &kp LG(LA(F))         &kp LG(LC(LEFT))      &kp LG(LS(LA(LEFT)))  &kp LG(LC(LA(LEFT)))  &kp LG(LA(LEFT))  &trans  &trans  &kp LG(LA(RIGHT))  &kp LG(LC(LA(RIGHT)))  &kp LG(LS(LA(RIGHT)))  &kp LG(LC(RIGHT))  &kp LG(LA(F))  &trans
+&trans  &trans                &trans                &trans                &bt BT_CLR_ALL        &bt BT_CLR        &trans  &trans  &bt BT_SEL 0       &bt BT_SEL 1           &bt BT_SEL 2           &bt BT_SEL 3       &bt BT_SEL 4   &trans
+&trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans  &trans                                                                              &trans         &trans
             >;
         };
 

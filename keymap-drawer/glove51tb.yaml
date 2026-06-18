@@ -125,7 +125,7 @@ layers:
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+F
+  - {t: ▽, type: trans}
   - LEFT
   - UP
   - RIGHT

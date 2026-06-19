@@ -330,7 +330,7 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.9em" style="font-size: 88%">LANGUAGE</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">2</tspan>
 </text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">LEFT COMMA…</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">&amp;cmd_scroll</tspan></text>
 </g>
 <g transform="translate(489, 254) rotate(-25.0)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -355,12 +355,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 347)" class="layer-FUN">
@@ -584,12 +578,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 695)" class="layer-NUM">
@@ -813,12 +801,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1042)" class="layer-controller">
@@ -1059,12 +1041,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1390)" class="layer-MOUSE">
@@ -1285,12 +1261,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1737)" class="layer-SCROLL">
@@ -1508,12 +1478,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 2085)" class="layer-6">
@@ -1728,12 +1692,6 @@ path.combo {
 <a href="#DEFAULT">
 <text x="672" y="147" class="combo tap layer-activator">DEFAULT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<a href="#controller">
-<text x="451" y="254" class="combo tap layer-activator"><tspan style="font-size: 70%">controller</tspan></text>
-</a><text x="451" y="265" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 </svg>

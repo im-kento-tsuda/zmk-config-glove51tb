@@ -47,7 +47,7 @@ layers:
   - LEFT ALT
   - BACKSPACE
   - {t: SPACE, h: NUM}
-  - {t: LANGUAGE 2, h: LEFT COMMAND}
+  - {t: LANGUAGE 2, h: '&cmd_scroll'}
   - {t: LANG1, h: RIGHT COMMAND}
   - {t: ENTER, h: FUN}
   - '~'
@@ -367,5 +367,3 @@ layers:
 combos:
 - p: [35, 36]
   k: DEFAULT
-- p: [46, 47]
-  k: {t: controller, h: toggle}

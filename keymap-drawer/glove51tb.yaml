@@ -14,18 +14,18 @@ layers:
   - P
   - ''
   - ''
-  - A
-  - S
-  - D
-  - F
-  - G
+  - {t: A, h: LEFT CONTROL}
+  - {t: S, h: Gui+LEFT SHIFT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT COMMAND}
+  - {t: G, h: LEFT ALT}
   - TAB
   - TAB
-  - H
-  - J
-  - K
-  - L
-  - '-'
+  - {t: H, h: RIGHT ALT}
+  - {t: J, h: RIGHT COMMAND}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: Gui+RIGHT SHIFT}
+  - {t: '-', h: RIGHT CONTROL}
   - ''
   - ''
   - {t: Z, h: LEFT SHIFT}

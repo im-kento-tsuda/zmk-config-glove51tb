@@ -124,10 +124,10 @@
         symbal_layer {
             label = "FUN";
             bindings = <
-&trans  &kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND   &kp PIPE          &kp PERCENT                           &kp LA(BACKSLASH)      &kp HASH           &kp SQT          &kp DOUBLE_QUOTES  &kp GRAVE  &trans
-&trans  &kp AT_SIGN      &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN   &kp TILDE  &trans
-&trans  &kp COLON        &kp SEMICOLON  &kp CARET       &kp PERIOD        &kp DOLLAR            &trans  &trans  &kp EQUAL              &kp MINUS          &kp PLUS         &kp ASTERISK       &kp SLASH  &trans
-&trans  &trans           &trans         &trans          &trans            &trans                &trans  &trans  &trans                                                                        &trans     &trans
+&trans  &kp EXCLAMATION                    &kp QUESTION                           &kp AMPERSAND                       &kp PIPE                                &kp PERCENT                                             &kp LA(BACKSLASH)                         &kp HASH                                  &kp SQT                               &kp DOUBLE_QUOTES                          &kp GRAVE                         &trans
+&trans  &homerow_mod LEFT_CONTROL AT_SIGN  &homerow_mod LG(LEFT_SHIFT) LESS_THAN  &homerow_mod LEFT_SHIFT LEFT_BRACE  &homerow_mod LEFT_COMMAND LEFT_BRACKET  &homerow_mod LEFT_ALT LEFT_PARENTHESIS  &trans  &trans  &homerow_mod RIGHT_ALT RIGHT_PARENTHESIS  &homerow_mod RIGHT_COMMAND RIGHT_BRACKET  &homerow_mod RIGHT_SHIFT RIGHT_BRACE  &homerow_mod LG(RIGHT_SHIFT) GREATER_THAN  &homerow_mod RIGHT_CONTROL TILDE  &trans
+&trans  &kp COLON                          &kp SEMICOLON                          &kp CARET                           &kp PERIOD                              &kp DOLLAR                              &trans  &trans  &kp EQUAL                                 &kp MINUS                                 &kp PLUS                              &kp ASTERISK                               &kp SLASH                         &trans
+&trans  &trans                             &trans                                 &trans                              &trans                                  &trans                                  &trans  &trans  &trans                                                                                                                                                               &trans                            &trans
             >;
         };
 

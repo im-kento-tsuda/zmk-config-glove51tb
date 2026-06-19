@@ -125,17 +125,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - .
+  - {t: ▽, type: trans}
   - LEFT
   - RIGHT
   - UP
   - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: 'Sft+Gui+[', h: LEFT SHIFT}
-  - Gui+Sft+]
-  - Gui+[
-  - Gui+]
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
   - $
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

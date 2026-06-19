@@ -66,18 +66,18 @@ layers:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '@'
-  - <
-  - '{'
-  - '['
-  - (
+  - {t: '@', h: LEFT CONTROL}
+  - {t: <, h: Gui+LEFT SHIFT}
+  - {t: '{', h: LEFT SHIFT}
+  - {t: '[', h: LEFT COMMAND}
+  - {t: (, h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - )
-  - ']'
-  - '}'
-  - '>'
-  - '~'
+  - {t: ), h: RIGHT ALT}
+  - {t: ']', h: RIGHT COMMAND}
+  - {t: '}', h: RIGHT SHIFT}
+  - {t: '>', h: Gui+RIGHT SHIFT}
+  - {t: '~', h: RIGHT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'

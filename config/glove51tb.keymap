@@ -126,7 +126,7 @@
 &none  &kp Q                         &kp W                          &kp E                      &kp R                        &kp T                                                                          &kp Y                     &kp U                         &kp I                       &kp O                           &kp P                             &none
 &none  &homerow_mod LEFT_CONTROL A   &homerow_mod LG(LEFT_SHIFT) S  &homerow_mod LEFT_SHIFT D  &homerow_mod LEFT_COMMAND F  &homerow_mod LEFT_ALT G  &kp TAB                      &kp TAB                  &homerow_mod RIGHT_ALT H  &homerow_mod RIGHT_COMMAND J  &homerow_mod RIGHT_SHIFT K  &homerow_mod LG(RIGHT_SHIFT) L  &homerow_mod RIGHT_CONTROL MINUS  &none
 &none  &homerow_mod LEFT_SHIFT Z     &kp X                          &kp C                      &kp V                        &kp B                    &kp ESC                      &kp ESC                  &kp N                     &kp M                         &kp COMMA                   &lt 5 PERIOD                    &mt RIGHT_SHIFT SLASH             &none
-&none  &mt LEFT_COMMAND EXCLAMATION  &kp LEFT_CONTROL               &kp LEFT_ALT               &kp BACKSPACE                &lt 2 SPACE              &cmd_scroll_ht 0 LANGUAGE_2  &mt RIGHT_COMMAND LANG1  &lt 1 ENTER                                                                                                         &kp TILDE                         &none
+&none  &mt LEFT_COMMAND EXCLAMATION  &kp LEFT_CONTROL               &kp LEFT_ALT               &kp BACKSPACE                &lt 2 SPACE              &mt LEFT_COMMAND LANGUAGE_2  &mt RIGHT_COMMAND LANG1  &lt 1 ENTER                                                                                                         &kp TILDE                         &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -166,10 +166,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
+&trans  &trans                    &trans                     &trans                &trans                 &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &trans  &trans  &trans
+&trans  &trans                    &trans                     &trans                &trans                 &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans                    &trans                     &trans                &trans                 &trans  &trans  &trans  &trans                                &trans  &trans
             >;
         };
 

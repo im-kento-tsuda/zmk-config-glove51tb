@@ -158,7 +158,7 @@
             bindings = <
 &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS        &kp C_PAUSE           &kp C_NEXT                        &kp C_MUTE         &kp C_VOLUME_DOWN      &kp C_VOLUME_UP        &kp LG(MINUS)      &kp LG(PLUS)   &trans
 &trans  &kp LG(LA(F))         &kp LG(LC(LEFT))      &kp LG(LS(LA(LEFT)))  &kp LG(LC(LA(LEFT)))  &kp LG(LA(LEFT))  &trans  &trans  &kp LG(LA(RIGHT))  &kp LG(LC(LA(RIGHT)))  &kp LG(LS(LA(RIGHT)))  &kp LG(LC(RIGHT))  &kp LG(LA(F))  &trans
-&trans  &kp F6                &kp F7                &kp F8                &kp F9                &kp F10           &trans  &trans  &kp F11            &kp F12                &trans                 &trans             &trans         &trans
+&trans  &kp F6                &kp F7                &kp F8                &kp F9                &kp F10           &trans  &trans  &kp F11            &kp F12                &none                  &trans             &trans         &trans
 &trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans  &trans                                                                              &trans         &trans
             >;
         };

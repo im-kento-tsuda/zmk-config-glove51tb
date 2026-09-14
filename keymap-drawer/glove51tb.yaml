@@ -45,8 +45,8 @@ layers:
   - {t: '!', h: LEFT COMMAND}
   - LEFT CONTROL
   - LEFT ALT
-  - BACKSPACE
-  - {t: SPACE, h: NUM}
+  - A
+  - B
   - {t: LANGUAGE 2, h: LEFT COMMAND}
   - {t: LANG1, h: RIGHT COMMAND}
   - {t: ENTER, h: FUN}
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
